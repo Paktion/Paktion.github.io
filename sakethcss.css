@@ -13,8 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding-bottom: 0px;
+    height: 100vh
 }
 
 .bg-image {
@@ -40,3 +39,52 @@
     margin-right: 10px;
 }
 
+.cool-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cool-button:hover {
+    background-color: #008080;
+}
+.cewlcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark{
+    background-color: black;
+}
+
+.dif{
+    margin: 150px;
+
+}
+
+.border{
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: turquoise;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
